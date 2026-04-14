@@ -9,6 +9,9 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   output: 'export' as const,
   trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default withNextIntl(nextConfig);

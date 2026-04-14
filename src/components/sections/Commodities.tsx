@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { ShoppingCart, Wheat, Droplets, Leaf, Globe2, MoveRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export default function Commodities() {
   const t = useTranslations('Index.commodities');
@@ -104,8 +105,8 @@ export default function Commodities() {
             </div>
 
             {/* Background Map Graphic Placeholder */}
-            <div className="absolute top-1/2 right-0 -translate-y-1/2 opacity-[0.05] pointer-events-none scale-150">
-              <Globe2 className="w-[800px] h-[800px]" />
+            <div className="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
+              <Image src="/commodities.jpg" alt="" fill className="object-cover" />
             </div>
           </motion.div>
         </div>

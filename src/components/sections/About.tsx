@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Eye, Target, Award } from 'lucide-react';
+import Image from 'next/image';
 
 export default function About() {
   const at = useTranslations('Index.about');
@@ -26,6 +27,22 @@ export default function About() {
   return (
     <section id="about" className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
+        {/* Hero-style image banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="relative h-72 md:h-96 rounded-[2.5rem] overflow-hidden mb-16"
+        >
+          <Image
+            src="/trading.jpg"
+            alt="Global commodity trading"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-white via-white/20 to-transparent" />
+        </motion.div>
+
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Text Content */}
           <motion.div

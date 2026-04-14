@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, Phone, Send, CheckCircle2 } from 'lucide-react';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Contact() {
   const t = useTranslations('Index.contact');
@@ -17,8 +18,13 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-24 bg-slate-950 text-white relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image src="/dubai.jpg" alt="" fill className="object-cover opacity-15" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/95 to-slate-950/80" />
+      </div>
       {/* Decorative gradients */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gold-600/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gold-600/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2 z-0" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
