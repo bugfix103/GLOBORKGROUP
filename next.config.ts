@@ -8,6 +8,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export' as const,
+  trailingSlash: true,
 };
 
 export default withNextIntl(nextConfig);
