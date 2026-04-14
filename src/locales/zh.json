@@ -1,0 +1,72 @@
+{
+  "Index": {
+    "title": "Globork Group | 全球大宗商品贸易代理机构",
+    "description": "30年值得信赖的贸易。全球大宗商品。中亚大宗商品贸易中心。总部位于迪拜 (DMCC)。",
+    "hero": {
+      "tagline": "30年值得信赖的贸易",
+      "title": "Globork Group — 全球大宗商品贸易代理机构",
+      "subtitle": "通过三十年的卓越表现，将全球生产商与中亚和中东市场联系起来。",
+      "cta": "开始使用",
+      "ctaSecondary": "我们的商品"
+    },
+    "nav": {
+      "about": "关于我们",
+      "vision": "愿景与使命",
+      "commodities": "商品",
+      "markets": "市场",
+      "legacy": "传承",
+      "contact": "联系我们",
+      "selectLanguage": "语言"
+    },
+    "about": {
+      "title": "关于 Globork Group",
+      "p1": "Globork Group 是一家在迪拜 (DMCC) 注册的国际贸易公司。我们专注于原材料的进出口：糖（原糖和白糖）、面粉、大豆、燃料和其他大宗商品。",
+      "p2": "Globork Group 集团内的领导者和公司三十多年来在欧洲、中亚和中东地区成功从事各种产品的进出口、生产和供应。我们在拉美地区直接供应方面也有多年的经验。",
+      "p3": "如今，Globork Group 致力于国际大宗商品贸易，利用积累的专业知识、成熟的供应渠道和可靠的合作伙伴网络。"
+    },
+    "vision": {
+      "visionTitle": "愿景",
+      "visionContent": "依托集团在国际贸易、生产和物流领域30年的经验，成为全球领先的大宗商品交易商。",
+      "missionTitle": "使命",
+      "missionContent": "通过透明高效的糖、面粉、大豆、燃料及其他大宗商品供应，将经过认证的生产商（包括印度和拉美）与中亚、中东和欧洲的买家联系起来。"
+    },
+    "commodities": {
+      "title": "我们经营的商品",
+      "sugar": "糖（原糖及白糖）",
+      "flour": "面粉",
+      "soy": "大豆",
+      "fuel": "燃料",
+      "grains": "谷物及其他"
+    },
+    "markets": {
+      "title": "主要市场与路线",
+      "routeTitle": "直接供应：印度 → 阿富汗",
+      "routeContent": "将印度糖直接供应给阿富汗及其他中亚国家。我们利用与印度生产商的长期合同以及成熟的物流方案。",
+      "regions": "欧洲、中亚、中东、拉美"
+    },
+    "legacy": {
+      "title": "集团传承",
+      "subtitle": "通过我们的集团公司在国际贸易和生产方面拥有30多年的经验：",
+      "footer": "在不同行业和地区的多年经验使得 Globork Group 今天能够为客户提供最大的可靠性和对全球供应链的深刻理解。",
+      "companies": {
+        "globork": "Globork — 人力资源与猎头",
+        "rhcc": "RHCC — 建筑工程",
+        "unity": "Unity Integration — 整合咨询服务",
+        "tiger": "Tiger 风险管理",
+        "biss": "BISS 贸易公司",
+        "kbm": "KBM AGRO — 农业工业"
+      }
+    },
+    "contact": {
+      "title": "联系我们",
+      "address": "迪拜 (DMCC)，阿联酋",
+      "form": {
+        "name": "姓名",
+        "email": "电子邮件",
+        "message": "信息",
+        "send": "发送信息",
+        "success": "谢谢！您的信息已发送。"
+      }
+    }
+  }
+}

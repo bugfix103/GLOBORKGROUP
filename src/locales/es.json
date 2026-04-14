@@ -1,0 +1,72 @@
+{
+  "Index": {
+    "title": "Globork Group | Agencia Global de Comercio de Materias Primas",
+    "description": "30 años de comercio confiable. Materias primas globales. Centro de comercio de materias primas de Asia Central. Con sede en Dubái (DMCC).",
+    "hero": {
+      "tagline": "30 años de comercio confiable",
+      "title": "Globork Group — Agencia Global de Comercio de Materias Primas",
+      "subtitle": "Conectando productores globales con los mercados de Asia Central y Oriente Medio a través de tres décadas de excelencia.",
+      "cta": "Empezar",
+      "ctaSecondary": "Nuestros productos"
+    },
+    "nav": {
+      "about": "Sobre nosotros",
+      "vision": "Visión y Misión",
+      "commodities": "Productos",
+      "markets": "Mercados",
+      "legacy": "Legado",
+      "contact": "Contáctenos",
+      "selectLanguage": "Idioma"
+    },
+    "about": {
+      "title": "Sobre Globork Group",
+      "p1": "Globork Group es una empresa comercial internacional registrada en Dubái (DMCC). Nos especializamos en la importación y exportación de materias primas: azúcar (cruda y blanca), harina, soja, combustible y otros productos básicos.",
+      "p2": "Los líderes y las empresas integradas en el holding Globork Group han participado con éxito en la importación-exportación, producción y suministro de diversos productos en Europa, Asia Central y Oriente Medio durante más de 30 años. También contamos con muchos años de experiencia en suministros directos desde América Latina.",
+      "p3": "Hoy, Globork Group se concentra en el comercio internacional de materias primas, utilizando la experiencia acumulada, canales de suministro probados y redes de socios confiables."
+    },
+    "vision": {
+      "visionTitle": "Visión",
+      "visionContent": "Convertirse en un líder mundial en el comercio de materias primas, aprovechando los 30 años de experiencia del holding en comercio internacional, producción y logística.",
+      "missionTitle": "Misión",
+      "missionContent": "Conectar productores verificados (incluidos India y América Latina) con compradores en Asia Central, Oriente Medio y Europa a través de suministros transparentes y eficientes de azúcar, harina, soja, combustible y otras materias primas."
+    },
+    "commodities": {
+      "title": "Productos que comercializamos",
+      "sugar": "Azúcar (cruda y blanca)",
+      "flour": "Harina",
+      "soy": "Soja",
+      "fuel": "Combustible",
+      "grains": "Granos y otros"
+    },
+    "markets": {
+      "title": "Mercados y rutas clave",
+      "routeTitle": "Suministro directo: India → Afganistán",
+      "routeContent": "Suministro directo de azúcar india a Afganistán y otros países de Asia Central. Utilizamos contratos a largo plazo con productores indios y esquemas logísticos probados.",
+      "regions": "Europa, Asia Central, Oriente Medio, América Latina"
+    },
+    "legacy": {
+      "title": "Legado del holding",
+      "subtitle": "Más de 30 años de experiencia en comercio internacional y producción a través de nuestras empresas del holding:",
+      "footer": "Estos muchos años de experiencia en diversas industrias y regiones permiten a Globork Group ofrecer hoy a los clientes la máxima fiabilidad y una comprensión profunda de las cadenas de suministro globales.",
+      "companies": {
+        "globork": "Globork — RR.HH. y Headhunting",
+        "rhcc": "RHCC — Construcción",
+        "unity": "Unity Integration — Servicios de consultoría",
+        "tiger": "Tiger Risk Management",
+        "biss": "BISS Trading Company",
+        "kbm": "KBM AGRO — Agroindustrial"
+      }
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "address": "Dubái (DMCC), Emiratos Árabes Unidos",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "send": "Enviar mensaje",
+        "success": "¡Gracias! Su mensaje ha sido enviado."
+      }
+    }
+  }
+}

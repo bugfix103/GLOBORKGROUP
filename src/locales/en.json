@@ -1,0 +1,72 @@
+{
+  "Index": {
+    "title": "Globork Group | Global Commodities Trading Agency",
+    "description": "30 Years of Trusted Trade. Global Commodities Central Asia Commodity Trading Hub. Based in Dubai (DMCC).",
+    "hero": {
+      "tagline": "30 Years of Trusted Trade",
+      "title": "Globork Group — Global Commodities Trading Agency",
+      "subtitle": "Connecting global producers with Central Asian and Middle Eastern markets through three decades of excellence.",
+      "cta": "Get Started",
+      "ctaSecondary": "Our Commodities"
+    },
+    "nav": {
+      "about": "About Us",
+      "vision": "Vision & Mission",
+      "commodities": "Commodities",
+      "markets": "Markets",
+      "legacy": "Legacy",
+      "contact": "Contact Us",
+      "selectLanguage": "Language"
+    },
+    "about": {
+      "title": "About Globork Group",
+      "p1": "Globork Group is an international trading company registered in Dubai (DMCC). We specialize in the import and export of raw materials: sugar (raw & white), flour, soy, fuel, and other commodities.",
+      "p2": "The leaders and companies within the Globork Group holding have been successfully engaged in import-export, production, and supply of various products in Europe, Central Asia, and the Middle East for more than 30 years. We also have many years of experience in direct supplies from Latin America.",
+      "p3": "Today, Globork Group concentrates on international commodities trading, using accumulated expertise, proven supply channels, and reliable partner networks."
+    },
+    "vision": {
+      "visionTitle": "Vision",
+      "visionContent": "To become a leading global commodities trader, building on the holding's 30 years of experience in international trade, production, and logistics.",
+      "missionTitle": "Mission",
+      "missionContent": "To connect verified producers (including India and Latin America) with buyers in Central Asia, the Middle East, and Europe through transparent and efficient supplies of sugar, flour, soy, fuel, and other commodities."
+    },
+    "commodities": {
+      "title": "Commodities We Trade",
+      "sugar": "Sugar (Raw & White)",
+      "flour": "Flour",
+      "soy": "Soy",
+      "fuel": "Fuel",
+      "grains": "Grains & Others"
+    },
+    "markets": {
+      "title": "Key Markets & Routes",
+      "routeTitle": "Direct Supply: India → Afghanistan",
+      "routeContent": "Direct supply of Indian sugar to Afghanistan and other Central Asian countries. We utilize long-term contracts with Indian producers and proven logistics schemes.",
+      "regions": "Europe, Central Asia, Middle East, Latin America"
+    },
+    "legacy": {
+      "title": "Holding Legacy",
+      "subtitle": "Over 30 years of experience in international trade and production through our holding companies:",
+      "footer": "This many years of experience in various industries and regions allows Globork Group to offer clients maximum reliability and a deep understanding of global supply chains.",
+      "companies": {
+        "globork": "Globork — HR & Headhunting",
+        "rhcc": "RHCC — Construction",
+        "unity": "Unity Integration — Consulting Services",
+        "tiger": "Tiger Risk Management",
+        "biss": "BISS Trading Company",
+        "kbm": "KBM AGRO — Agro-industrial"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "Dubai (DMCC), UAE",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message",
+        "success": "Thank you! Your message has been sent."
+      }
+    }
+  }
+}

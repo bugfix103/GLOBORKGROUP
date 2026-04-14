@@ -1,0 +1,72 @@
+{
+  "Index": {
+    "title": "Globork Group | Globale Handelsagentur für Rohstoffe",
+    "description": "30 Jahre vertrauenswürdiger Handel. Globale Rohstoffe. Handelszentrum für Rohstoffe in Zentralasien. Ansässig in Dubai (DMCC).",
+    "hero": {
+      "tagline": "30 Jahre vertrauenswürdiger Handel",
+      "title": "Globork Group — Globale Handelsagentur für Rohstoffe",
+      "subtitle": "Verbindung globaler Produzenten mit den Märkten Zentralasiens und des Nahen Ostens durch drei Jahrzehnte Exzellenz.",
+      "cta": "Jetzt starten",
+      "ctaSecondary": "Unsere Waren"
+    },
+    "nav": {
+      "about": "Über uns",
+      "vision": "Vision & Mission",
+      "commodities": "Rohstoffe",
+      "markets": "Märkte",
+      "legacy": "Erbe",
+      "contact": "Kontakt",
+      "selectLanguage": "Sprache"
+    },
+    "about": {
+      "title": "Über die Globork Group",
+      "p1": "Die Globork Group ist ein internationales Handelsunternehmen mit Sitz in Dubai (DMCC). Wir sind spezialisiert auf den Import und Export von Rohstoffen: Zucker (Roh- und Weißzucker), Mehl, Soja, Kraftstoff und andere Rohstoffe.",
+      "p2": "Die Führungskräfte und Unternehmen der Globork Group Holding sind seit mehr als 30 Jahren erfolgreich im Import-Export, in der Produktion und in der Lieferung verschiedener Produkte in Europa, Zentralasien und im Nahen Osten tätig. Wir verfügen auch über langjährige Erfahrung in Direktlieferungen aus Lateinamerika.",
+      "p3": "Heute konzentriert sich die Globork Group auf den internationalen Rohstoffhandel unter Nutzung von akkumuliertem Fachwissen, bewährten Lieferkanälen und zuverlässigen Partnernetzwerken."
+    },
+    "vision": {
+      "visionTitle": "Vision",
+      "visionContent": "Ein weltweit führender Rohstoffhändler zu werden, basierend auf der 30-jährigen Erfahrung der Holding in den Bereichen internationaler Handel, Produktion und Logistik.",
+      "missionTitle": "Mission",
+      "missionContent": "Verbindung verifizierter Produzenten (einschließlich Indien und Lateinamerika) mit Käufern in Zentralasien, im Nahen Osten und in Europa durch transparente und effiziente Lieferungen von Zucker, Mehl, Soja, Kraftstoff und anderen Rohstoffen."
+    },
+    "commodities": {
+      "title": "Unsere Handelsgüter",
+      "sugar": "Zucker (Roh- und Weißzucker)",
+      "flour": "Mehl",
+      "soy": "Soja",
+      "fuel": "Kraftstoff",
+      "grains": "Getreide & Sonstiges"
+    },
+    "markets": {
+      "title": "Wichtige Märkte & Routen",
+      "routeTitle": "Direktlieferung: Indien → Afghanistan",
+      "routeContent": "Direktlieferung von indischem Zucker nach Afghanistan und in andere zentralasiatische Länder. Wir nutzen langfristige Verträge mit indischen Produzenten und bewährte Logistikkonzepte.",
+      "regions": "Europa, Zentralasien, Naher Osten, Lateinamerika"
+    },
+    "legacy": {
+      "title": "Erbe der Holding",
+      "subtitle": "Über 30 Jahre Erfahrung im internationalen Handel und in der Produktion durch unsere Holdinggesellschaften:",
+      "footer": "Diese langjährige Erfahrung in verschiedenen Branchen und Regionen ermöglicht es der Globork Group heute, Kunden maximale Zuverlässigkeit und ein tiefes Verständnis der globalen Lieferketten zu bieten.",
+      "companies": {
+        "globork": "Globork — Personalwesen & Headhunting",
+        "rhcc": "RHCC — Bauwesen",
+        "unity": "Unity Integration — Beratungsdienstleistungen",
+        "tiger": "Tiger Risikomanagement",
+        "biss": "BISS Handelsgesellschaft",
+        "kbm": "KBM AGRO — Agrarindustrie"
+      }
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "address": "Dubai (DMCC), VAE",
+      "form": {
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht",
+        "send": "Nachricht senden",
+        "success": "Vielen Dank! Ihre Nachricht wurde gesendet."
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Index": {
+    "title": "Globork Group | 글로벌 원자재 거래 대행사",
+    "description": "30년 전통의 신뢰할 수 있는 무역. 글로벌 원자재. 중앙아시아 원자재 거래 허브. 두바이(DMCC) 소재.",
+    "hero": {
+      "tagline": "30년 전통의 신뢰할 수 있는 무역",
+      "title": "Globork Group — 글로벌 원자재 거래 대행사",
+      "subtitle": "30년의 탁월함을 바탕으로 전 세계 생산자와 중앙아시아 및 중동 시장을 연결합니다.",
+      "cta": "시작하기",
+      "ctaSecondary": "취급 품목"
+    },
+    "nav": {
+      "about": "회사 소개",
+      "vision": "비전 및 미션",
+      "commodities": "취급 품목",
+      "markets": "시장",
+      "legacy": "레거시",
+      "contact": "문의하기",
+      "selectLanguage": "언어"
+    },
+    "about": {
+      "title": "Globork Group 소개",
+      "p1": "Globork Group은 두바이(DMCC)에 등록된 국제 무역 회사입니다. 당사는 설탕(원당 및 백당), 밀가루, 대두, 연료 및 기타 원자재(commodities)의 수출입을 전문으로 합니다.",
+      "p2": "Globork Group 홀딩스 내의 리더들과 계열사들은 30년 이상 유럽, 중앙아시아, 중동에서 다양한 제품의 수출입, 제조 및 공급을 성공적으로 수행해 왔습니다. 또한 라틴 아메리카에서의 직접 공급 분야에서도 오랜 경험을 보유하고 있습니다.",
+      "p3": "오늘날 Globork Group은 그동안 축적된 전문 지식, 입증된 공급망 및 신뢰할 수 있는 파트너 네트워크를 활용하여 국제 원자재 거래에 집중하고 있습니다."
+    },
+    "vision": {
+      "visionTitle": "비전",
+      "visionContent": "국제 무역, 제조 및 물류 분야에서 홀딩스가 쌓아온 30년의 경험을 바탕으로 세계를 선도하는 글로벌 원자재 트레이더가 되는 것.",
+      "missionTitle": "미션",
+      "missionContent": "투명하고 효율적인 설탕, 밀가루, 대두, 연료 및 기타 원자재 공급을 통해 검증된 생산자(인도 및 라틴 아메리카 포함)와 중앙아시아, 중동 및 유럽의 구매자를 연결하는 것."
+    },
+    "commodities": {
+      "title": "주요 취급 품목",
+      "sugar": "설탕 (원당 및 백당)",
+      "flour": "밀가루",
+      "soy": "대두",
+      "fuel": "연료",
+      "grains": "곡물 및 기타"
+    },
+    "markets": {
+      "title": "주요 시장 및 루트",
+      "routeTitle": "직공급: 인도 → 아프가니스탄",
+      "routeContent": "아프가니스탄 및 기타 중앙아시아 국가로의 인도산 설탕 직접 공급. 당사는 인도 생산자와의 장기 계약 및 입증된 물류 체계를 활용합니다.",
+      "regions": "유럽, 중앙아시아, 중동, 라틴 아메리카"
+    },
+    "legacy": {
+      "title": "홀딩스 레거시",
+      "subtitle": "홀딩스 계열사를 통한 국제 무역 및 제조 분야의 30년 이상 경험:",
+      "footer": "다양한 산업과 지역에서의 오랜 경험을 통해 Globork Group은 현재 고객에게 최고의 신뢰성과 글로벌 공급망에 대한 깊은 이해를 제공할 수 있습니다.",
+      "companies": {
+        "globork": "Globork — 인사 및 헤드헌팅",
+        "rhcc": "RHCC — 건설",
+        "unity": "Unity Integration — 통합 컨설팅 서비스",
+        "tiger": "Tiger 리스크 관리",
+        "biss": "BISS Trading Company — 무역 상사",
+        "kbm": "KBM AGRO — 농업 관련"
+      }
+    },
+    "contact": {
+      "title": "문의하기",
+      "address": "아랍에미리트 두바이 (DMCC)",
+      "form": {
+        "name": "성함",
+        "email": "이메일",
+        "message": "메시지",
+        "send": "메시지 보내기",
+        "success": "감사합니다! 메시지가 성공적으로 전송되었습니다."
+      }
+    }
+  }
+}

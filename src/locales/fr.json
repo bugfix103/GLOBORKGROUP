@@ -1,0 +1,72 @@
+{
+  "Index": {
+    "title": "Globork Group | Agence mondiale de négoce de matières premières",
+    "description": "30 ans de commerce de confiance. Matières premières mondiales. Hub de négoce de matières premières en Asie centrale. Basé à Dubaï (DMCC).",
+    "hero": {
+      "tagline": "30 ans de commerce de confiance",
+      "title": "Globork Group — Agence mondiale de négoce de matières premières",
+      "subtitle": "Connecter les producteurs mondiaux aux marchés d'Asie centrale et du Moyen-Orient grâce à trois décennies d'excellence.",
+      "cta": "Commencer",
+      "ctaSecondary": "Nos produits"
+    },
+    "nav": {
+      "about": "À propos",
+      "vision": "Vision & Mission",
+      "commodities": "Produits",
+      "markets": "Marchés",
+      "legacy": "Héritage",
+      "contact": "Contactez-nous",
+      "selectLanguage": "Langue"
+    },
+    "about": {
+      "title": "À propos de Globork Group",
+      "p1": "Globork Group est une société commerciale internationale enregistrée à Dubaï (DMCC). Nous sommes spécialisés dans l'importation et l'exportation de matières premières : sucre (roux et blanc), farine, soja, carburant et autres produits de base.",
+      "p2": "Les dirigeants et les sociétés du holding Globork Group sont engagés avec succès dans l'import-export, la production et la fourniture de divers produits en Europe, en Asie centrale et au Moyen-Orient depuis plus de 30 ans. Nous avons également de nombreuses années d'expérience dans les fournitures directes en provenance d'Amérique latine.",
+      "p3": "Aujourd'hui, Globork Group se concentre sur le négoce international de matières premières, en utilisant l'expertise accumulée, des canaux d'approvisionnement éprouvés et des réseaux de partenaires fiables."
+    },
+    "vision": {
+      "visionTitle": "Vision",
+      "visionContent": "Devenir un leader mondial du négoce de matières premières, en s'appuyant sur les 30 ans d'expérience du holding dans le commerce international, la production et la logistique.",
+      "missionTitle": "Mission",
+      "missionContent": "Connecter des producteurs vérifiés (y compris l'Inde et l'Amérique latine) avec des acheteurs en Asie centrale, au Moyen-Orient et en Europe grâce à des fournitures transparentes et efficaces de sucre, de farine, de soja, de carburant et d'autres matières premières."
+    },
+    "commodities": {
+      "title": "Produits que nous négocions",
+      "sugar": "Sucre (roux et blanc)",
+      "flour": "Farine",
+      "soy": "Soja",
+      "fuel": "Carburant",
+      "grains": "Céréales et autres"
+    },
+    "markets": {
+      "title": "Marchés et routes clés",
+      "routeTitle": "Approvisionnement direct : Inde → Afghanistan",
+      "routeContent": "Approvisionnement direct de sucre indien vers l'Afghanistan et d'autres pays d'Asie centrale. Nous utilisons des contrats à long terme avec des producteurs indiens et des schémas logistiques éprouvés.",
+      "regions": "Europe, Asie centrale, Moyen-Orient, Amérique latine"
+    },
+    "legacy": {
+      "title": "Héritage du holding",
+      "subtitle": "Plus de 30 ans d'expérience dans le commerce international et la production à travers nos sociétés holding :",
+      "footer": "Ces nombreuses années d'expérience dans divers secteurs et régions permettent aujourd'hui à Globork Group d'offrir à ses clients une fiabilité maximale et une compréhension approfondie des chaînes d'approvisionnement mondiales.",
+      "companies": {
+        "globork": "Globork — RH & Chasse de têtes",
+        "rhcc": "RHCC — Construction",
+        "unity": "Unity Integration — Services de conseil",
+        "tiger": "Tiger Risk Management",
+        "biss": "BISS Trading Company",
+        "kbm": "KBM AGRO — Agro-industriel"
+      }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "address": "Dubaï (DMCC), EAU",
+      "form": {
+        "name": "Nom",
+        "email": "Email",
+        "message": "Message",
+        "send": "Envoyer le message",
+        "success": "Merci ! Votre message a été envoyé."
+      }
+    }
+  }
+}
