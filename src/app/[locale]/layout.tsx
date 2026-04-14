@@ -1,10 +1,14 @@
 import { locales } from '@/i18n/request';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { Inter, Outfit } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 const inter = Inter({ subsets: ['latin', 'cyrillic'], variable: '--font-inter' });
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
@@ -29,6 +33,8 @@ export default async function LocaleLayout({
   if (!locales.includes(locale as any)) {
     notFound();
   }
+
+  setRequestLocale(locale);
 
   const messages = await getMessages();
   const direction = locale === 'ar' ? 'rtl' : 'ltr';
