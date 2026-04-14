@@ -132,8 +132,21 @@ export default function Contact() {
           </motion.div>
         </div>
 
-        <div className="mt-24 pt-12 border-t border-white/10 text-center text-white/30 text-sm">
-          &copy; {new Date().getFullYear()} Globork Group. Registered in DMCC, Dubai. All Rights Reserved.
+        <div className="mt-24 pt-12 border-t border-white/10 flex flex-col items-center gap-8">
+          <div className="relative w-[100px] h-[100px]">
+            <Image
+              src="/globorkgroup1.png"
+              alt="Globork Group Logo"
+              fill
+              className="object-contain"
+            />
+          </div>
+          <span className="text-2xl font-extrabold tracking-tighter text-white">
+            GLOBORK <span className="text-gold-500">GROUP</span>
+          </span>
+          <p className="text-white/40 text-sm">
+            &copy; {new Date().getFullYear()} Globork Group. Registered in DMCC, Dubai. All Rights Reserved.
+          </p>
         </div>
       </div>
     </section>

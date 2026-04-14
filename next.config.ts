@@ -6,8 +6,10 @@ const withNextIntl = createNextIntlPlugin(
 
 import type { NextConfig } from 'next';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
-  output: 'export' as const,
+  ...(isProd && { output: 'export' as const }),
   trailingSlash: true,
   images: {
     unoptimized: true,

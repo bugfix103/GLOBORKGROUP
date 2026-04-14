@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-12 h-12 overflow-hidden transition-transform duration-500 group-hover:scale-110">
+          <div className="relative w-[72px] h-[72px] overflow-hidden transition-transform duration-500 group-hover:scale-110">
             <Image
               src="/globorkgroup1.png"
               alt="Globork Group Logo"
@@ -53,10 +53,10 @@ export default function Navbar() {
             />
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-extrabold tracking-tighter text-white">
+            <span className="text-2xl font-extrabold tracking-tighter text-white">
               GLOBORK <span className="text-gold-500">GROUP</span>
             </span>
-            <span className="text-[10px] uppercase tracking-[0.2em] text-white/50 font-medium">
+            <span className="text-xs uppercase tracking-[0.2em] text-white/50 font-medium">
               30 Years of Excellence
             </span>
           </div>
