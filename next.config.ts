@@ -5,6 +5,8 @@ const withNextIntl = createNextIntlPlugin(
 );
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  // Add direct support for Turbopack if needed, though default should work
+};
 
 export default withNextIntl(nextConfig);
