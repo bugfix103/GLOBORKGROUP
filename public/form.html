@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Form Detection</title></head>
+<body>
+  <!-- This hidden form lets Netlify's deploy bot detect form fields. -->
+  <!-- The actual form is rendered by React in Contact.tsx -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input name="form-name" type="hidden" value="contact" />
+    <input name="bot-field" />
+    <input name="name" />
+    <input name="email" />
+    <textarea name="message"></textarea>
+  </form>
+</body>
+</html>
