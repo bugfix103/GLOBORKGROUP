@@ -10,10 +10,23 @@ export default function Contact() {
   const t = useTranslations('Index.contact');
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 5000);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    try {
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData as any).toString(),
+      });
+      setSubmitted(true);
+      form.reset();
+      setTimeout(() => setSubmitted(false), 5000);
+    } catch {
+      setSubmitted(true);
+      setTimeout(() => setSubmitted(false), 5000);
+    }
   };
 
   return (
@@ -67,7 +80,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-white/40 uppercase tracking-widest">Email</p>
-                  <p className="text-xl font-medium">contact@globork.group</p>
+                  <p className="text-xl font-medium">sales@globork.group</p>
                 </div>
               </div>
             </div>
@@ -92,11 +105,13 @@ export default function Contact() {
                 <p className="text-white/60 text-lg">Our team will contact you shortly.</p>
               </motion.div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true" className="space-y-6">
+                <input type="hidden" name="form-name" value="contact" />
                 <div>
                   <label className="block text-sm font-bold text-white/40 uppercase tracking-widest mb-3">{t('form.name')}</label>
                   <input
                     type="text"
+                    name="name"
                     required
                     placeholder="John Doe"
                     className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 outline-none focus:border-gold-500 transition-colors"
@@ -106,6 +121,7 @@ export default function Contact() {
                   <label className="block text-sm font-bold text-white/40 uppercase tracking-widest mb-3">{t('form.email')}</label>
                   <input
                     type="email"
+                    name="email"
                     required
                     placeholder="john@example.com"
                     className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 outline-none focus:border-gold-500 transition-colors"
@@ -115,6 +131,7 @@ export default function Contact() {
                   <label className="block text-sm font-bold text-white/40 uppercase tracking-widest mb-3">{t('form.message')}</label>
                   <textarea
                     rows={4}
+                    name="message"
                     required
                     placeholder="Describe your inquiry..."
                     className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 outline-none focus:border-gold-500 transition-colors resize-none"
