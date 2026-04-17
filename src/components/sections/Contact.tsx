@@ -10,22 +10,32 @@ export default function Contact() {
   const t = useTranslations('Index.contact');
   const [submitted, setSubmitted] = useState(false);
 
+  const [error, setError] = useState(false);
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError(false);
     const form = e.currentTarget;
     const formData = new FormData(form);
     try {
-      await fetch('/', {
+      const res = await fetch('/form.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(formData as any).toString(),
       });
-      setSubmitted(true);
-      form.reset();
-      setTimeout(() => setSubmitted(false), 5000);
-    } catch {
-      setSubmitted(true);
-      setTimeout(() => setSubmitted(false), 5000);
+      if (res.ok) {
+        setSubmitted(true);
+        form.reset();
+        setTimeout(() => setSubmitted(false), 5000);
+      } else {
+        console.error('Form submission failed:', res.status, res.statusText);
+        setError(true);
+        setTimeout(() => setError(false), 5000);
+      }
+    } catch (err) {
+      console.error('Form submission error:', err);
+      setError(true);
+      setTimeout(() => setError(false), 5000);
     }
   };
 
@@ -105,9 +115,14 @@ export default function Contact() {
                 <p className="text-white/60 text-lg">Our team will contact you shortly.</p>
               </motion.div>
             ) : (
-              <form onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="space-y-6">
+              <form onSubmit={handleSubmit} name="contact" method="POST" action="/form.html" data-netlify="true" netlify-honeypot="bot-field" className="space-y-6">
                 <input type="hidden" name="form-name" value="contact" />
                 <p className="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
+                {error && (
+                  <div className="bg-red-500/20 border border-red-500/50 rounded-2xl px-6 py-4 text-red-300 text-sm">
+                    Something went wrong. Please try again or email us directly at sales@globork.group
+                  </div>
+                )}
                 <div>
                   <label className="block text-sm font-bold text-white/40 uppercase tracking-widest mb-3">{t('form.name')}</label>
                   <input
