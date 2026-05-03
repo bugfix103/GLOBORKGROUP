@@ -91,6 +91,9 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-bold text-white/40 uppercase tracking-widest">Email</p>
                   <p className="text-xl font-medium">sales@globork.group</p>
+                  <p className="text-sm font-bold text-white/40 uppercase tracking-widest mt-4">Phone</p>
+                  <p className="text-lg font-medium">+372 533 65 680</p>
+                  <p className="text-lg font-medium">+41 78 936 01 96</p>
                 </div>
               </div>
             </div>
